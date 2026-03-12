@@ -1,11 +1,11 @@
 # enel-300-project
 
-# Pin configuration 
+## Pin configuration 
 
-## Car 
+### Car 
 
 | Net    | Description | PIN | Peripheral |  Notes|
-| ----------- | ----------- | ----------- | -----------| 
+| ----------- | ----------- | ----------- | -----------|  -----------| 
 | IN1_1 | PWM input 1 for motordriver 1 | PA6 | Timer 3 channel 1 | 
 | IN1_2 | PWM input 2 for motordriver 1 | PA1 | Timer 2 channel 2 | 
 | IN2_1 | PWM input 1 for motordriver 2 | PB6 | Timer 4 channel 1 |
@@ -21,10 +21,10 @@
 | Buzzer| buzzer pwm output for metal detection circuit | PA0 | Timer X channel Y|
 
 
-## Controller
+### Controller
 
-| Net    | Description | PIN | Peripheral |  Notes|
-| ----------- | ----------- | ----------- | -----------| 
+| Net    | Description | PIN | Peripheral |  
+| ----------- | ----------- | ----------- | -----------|  
 | SCL| Six wire SPI input stuff | PA5 | SPI 1 | 
 | SDA | Six wire SPI input stuff | PA7 | SPI 1 |
 | DC | Six wire SPI input stuff | PA12 | SPI 1 (GPIO output) |
