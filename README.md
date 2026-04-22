@@ -23,8 +23,8 @@
 
 ### Controller
 
-| Net    | Description | PIN | Peripheral |  
-| ----------- | ----------- | ----------- | -----------|  
+| Net    | Description | PIN | Peripheral |  Notes | 
+| ----------- | ----------- | ----------- | -----------|  -----------|  
 | SCL| Six wire SPI input stuff | PA5 | SPI 1 | 
 | SDA | Six wire SPI input stuff | PA7 | SPI 1 |
 | DC | Six wire SPI input stuff | PA12 | SPI 1 (GPIO output) |
@@ -32,8 +32,8 @@
 | RST | Six wire SPI input stuff | PA11  |SPI 1  (GPIO output) | 
 | X_pin| Adc output of joystick1 | PC0 | ADC 1 In 10| 
 |Y_pin| Adc output of joystick2 | PC1| ADC 1 In 11 |  
-| RX| Tx of bluetooth module | PC12| Uart 4 |  
-| TX| Rx of bluetooth module | PD2| Uart 4 |
+| RX| Tx of bluetooth module | PC12| Uart 5 |  
+| TX| Rx of bluetooth module | PD2| Uart 5 |
 | Sw_pin | Switch of Joystick 1 | PC2 | GPIO Input|   
 | Sw2_Pin | Switch of joystick 2 | PC3 | GPIO Input
 | SCRN_CRTL1 | button | PC6 | GPIO Input|   
